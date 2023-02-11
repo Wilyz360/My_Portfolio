@@ -1,0 +1,17 @@
+.main-info {
+    background-color: var(--nav-color);
+    display: flex;
+    position: absolute;
+    color: var(--font-color);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    z-index: 1; 
+    position: inherit !important;
+    min-height: 96vh;
+    height: 100vh;
+}
